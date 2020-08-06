@@ -18,7 +18,6 @@ H1 {
     justify-content: center;
     width: 80%;
     margin: auto;
-
 }
 
 
@@ -27,8 +26,9 @@ H1 {
     text-align: center;
     overflow: hidden;
     position: relative;
-    margin: 0px 25px;
-    padding:  30px 70px;
+    padding: 30px 0 40px;
+    margin: 0px 20px;
+    width: 30%;
     }
     
 .our-team .pic{
@@ -47,7 +47,7 @@ H1 {
     border-radius: 50%;
     background: #1785eb;
     position: absolute;
-    bottom: 130%;
+    bottom: 135%;
     right: 0;
     left: 0;
     opacity: 0.2;
@@ -91,8 +91,8 @@ H1 {
     color: #4e5052;
     letter-spacing: 1px;
     text-transform: capitalize;
-    margin-top: 55px;
     margin-bottom: 5px;
+
     }
 .our-team .post{
     display: block;
@@ -133,9 +133,15 @@ H1 {
     color: #1785eb;
     background: #f7f5ec;
     }
-    @media (max-width: 600px){
-        .container {
-            flex-direction: column;
-        }
-        .our-team{ margin-bottom: 30px; }
+
+    @media (max-width: 780px){
+   .container {
+       flex-direction: column;
+   }
+
+   .our-team {
+       width: 80%;
+       margin-top: 30px;
+   }
+
     }
